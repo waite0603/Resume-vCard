@@ -1663,7 +1663,7 @@ button:focus {
 
 .gallery-grid__image-wrap_news::after {
     content: '';
-    background-image: url(../icons/icon-news.svg);
+    background-image: url(../icons/icon-news2.svg);
     height: 2.5rem;
     margin: auto;
     opacity: 0;

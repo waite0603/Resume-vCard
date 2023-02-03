@@ -59,7 +59,7 @@
 					<img class="header__photo-img" src="assets/img/main-photo.jpg" alt="Ronald Robertson">
 				</div>
 				<div class="header__base-info">
-					<h4 class="title titl--h4">王梓聪</h4>
+					<h4 class="title title--h4">王梓聪</h4>
 					<div class="status">Waite Wang</div>
 					<ul class="header__social">
 						<li><a href="https://github.com/waite0603"><i class="font-icon icon-github1"></i></a></li>
@@ -97,7 +97,7 @@
 		        <div class="col-12 col-md-12 col-lg-10">
 				    <div class="box box-content">
 					    <div class="pb-2">
-		                    <h1 class="title title--h1 first-title title__separate">Portfolio</h1>
+		                    <h1 class="title title--h1 first-title title__separate">我的作品</h1>
 					    </div>
 
 						<!-- Filter -->
@@ -105,125 +105,147 @@
 			                <span class="placeholder">Select category</span>
 			                <ul class="filter">
 			                    <li class="filter__item">Category</li>
-				                <li class="filter__item active" data-filter="*"><a class="filter__link active" href="#filter">All</a></li>
-				                <li class="filter__item" data-filter=".category-concept"><a class="filter__link" href="#filter">Concept</a></li>
-				                <li class="filter__item" data-filter=".category-design"><a class="filter__link" href="#filter">Design</a></li>
-				                <li class="filter__item" data-filter=".category-life"><a class="filter__link" href="#filter">Life</a></li>
+				                <li class="filter__item active" data-filter="*"><a class="filter__link active" href="#filter">推荐</a></li>
+				                <li class="filter__item" data-filter=".category-web"><a class="filter__link" href="#filter">网页开发</a></li>
+				                <li class="filter__item" data-filter=".category-crawler"><a class="filter__link" href="#filter">爬虫</a></li>
+				                <li class="filter__item" data-filter=".category-photo"><a class="filter__link" href="#filter">摄影</a></li>
 			                </ul>
-			                <input type="hidden" name="changemetoo"/>
+			                <input type="hidden" name="change-me-too"/>
 		                </div>
 
 						<!-- Gallery -->
 				        <div class="gallery-grid js-grid-row js-filter-container">
 					        <div class="gutter-sizer"></div>
 					        <!-- Item 1 -->
-					        <figure class="gallery-grid__item category-concept">
+					        <figure class="gallery-grid__item category-web">
 						        <div class="gallery-grid__image-wrap_news">
-									<a href="https://www.facebook.com" class="gallery-grid__image-link js-zoom-images">
-                                    	<img class="gallery-grid__image_news cover lazyload" src="assets/img/image_01.jpg" alt="" />
+									<a href="https://github.com/waite0603/vue2-shop" class="gallery-grid__image-link js-zoom-images">
+                                    	<img class="gallery-grid__image_news cover lazyload" src="assets/img/web2.png" alt="" />
 									</a>
 						        </div>
                                 <figcaption class="gallery-grid__caption">
-							        <h4 class="title title--h6 gallery-grid__title">Half Avocado</h4>
-							        <span class="gallery-grid__category">Concept</span>
+							        <h4 class="title title--h6 gallery-grid__title">电商后台管理系统</h4>
+							        <span class="gallery-grid__category">Vue2.0 + Vuex + Axios + ES6 + Less</span>
 						        </figcaption>
                             </figure>
 
-					        <!-- Item 2 -->
-					        <figure class="gallery-grid__item category-concept">
+					        <!-- Web 2 -->
+					        <figure class="gallery-grid__item category-web">
 						        <div class="gallery-grid__image-wrap">
-									<img class="gallery-grid__image cover lazyload" src="assets/img/image_02.jpg" data-zoom alt="" />
+									<img class="gallery-grid__image cover lazyload" src="assets/img/web1.png" data-zoom alt="" />
 								</div>
 								<figcaption class="gallery-grid__caption">
-									<h4 class="title title--h6 gallery-grid__title">Pink Flamingo</h4>
-									<span class="gallery-grid__category">Concept</span>
+									<h4 class="title title--h6 gallery-grid__title">ERLI区块链电子招投平台</h4>
+									<span class="gallery-grid__category">页面开发(2021华为区块链高校大赛优秀奖)</span>
 								</figcaption>
 							</figure>
 
-							<!-- Item 3 -->
-							<figure class="gallery-grid__item category-design">
-								<div class="gallery-grid__image-wrap">
-									<img class="gallery-grid__image cover lazyload" src="assets/img/image_03.jpg" data-zoom alt="" />
+							<!-- Crawler 1 -->
+							<figure class="gallery-grid__item category-crawler">
+								<div class="gallery-grid__image-wrap_news">
+									<a href="https://waite.wang/archives/mou-gao-kao-ping-tai-ni-xiang" class="gallery-grid__image-link js-zoom-images">
+										<img class="gallery-grid__image_news cover lazyload" src="assets/img/crawler1.png" alt="" />
+									</a>
 								</div>
 								<figcaption class="gallery-grid__caption">
-									<h4 class="title title--h6 gallery-grid__title">Abstract</h4>
-									<span class="gallery-grid__category">Design</span>
+									<h4 class="title title--h6 gallery-grid__title">掌上高考平台接口数据解析</h4>
+									<span class="gallery-grid__category">Js逆向</span>
 								</figcaption>
 							</figure>
 
-							<!-- Item 4 -->
-							<figure class="gallery-grid__item category-design">
-								<div class="gallery-grid__image-wrap">
-									<img class="gallery-grid__image cover lazyload" src="assets/img/image_04.jpg" data-zoom alt="" />
+							<!-- Crawler 2 -->
+							<figure class="gallery-grid__item category-crawler category-web">
+								<div class="gallery-grid__image-wrap_news">
+									<a href="https://github.com/waite0603/DoubanTop250" class="gallery-grid__image-link js-zoom-images">
+										<img class="gallery-grid__image_news cover lazyload" src="assets/img/crawler2.png" alt="" />
+									</a>
 								</div>
 								<figcaption class="gallery-grid__caption">
-									<h4 class="title title--h6 gallery-grid__title">Abstract #2</h4>
-									<span class="gallery-grid__category">Design</span>
+									<h4 class="title title--h6 gallery-grid__title">豆瓣电影Top250数据爬取可视化</h4>
+									<span class="gallery-grid__category">Scrapy + Flask + Echarts</span>
 								</figcaption>
 							</figure>
 
-							<!-- Item 5 -->
-							<figure class="gallery-grid__item category-design">
+							<!-- Crawler 3 -->
+							<figure class="gallery-grid__item category-crawler category-web">
 								<div class="gallery-grid__image-wrap">
-									<img class="gallery-grid__image cover lazyload" src="assets/img/image_05.jpg" data-zoom alt="" />
+									<img class="gallery-grid__image cover lazyload" src="assets/img/crawler3.png" data-zoom alt="" />
 								</div>
 								<figcaption class="gallery-grid__caption">
-									<h4 class="title title--h6 gallery-grid__title">Abstract #3</h4>
-									<span class="gallery-grid__category">Design</span>
+									<h4 class="title title--h6 gallery-grid__title">Tesla数据爬取可视化</h4>
+									<span class="gallery-grid__category">Flask + Chart.js</span>
 								</figcaption>
 							</figure>
 
-							<!-- Item 6 -->
-							<figure class="gallery-grid__item category-life">
-								<div class="gallery-grid__image-wrap">
-									<img class="gallery-grid__image cover lazyload" src="assets/img/image_06.jpg" data-zoom alt="" />
+							<!-- Crawler 4 -->
+							<figure class="gallery-grid__item category-crawler">
+								<div class="gallery-grid__image-wrap" style="background: black;">
+									<img class="gallery-grid__image cover lazyload" style="height: 80%; margin-top: 15px" src="assets/img/crawler4.webp" data-zoom alt="" />
 								</div>
 								<figcaption class="gallery-grid__caption">
-									<h4 class="title title--h6 gallery-grid__title">Golden Gate</h4>
-									<span class="gallery-grid__category">Life</span>
+									<h4 class="title title--h6 gallery-grid__title">大屏可视化</h4>
+									<span class="gallery-grid__category">Vue2 + Datav + Echart</span>
 								</figcaption>
 							</figure>
 
-							<!-- Item 7 -->
-							<figure class="gallery-grid__item category-concept">
+
+							<!-- Photo 1 -->
+							<figure class="gallery-grid__item category-photo">
 								<div class="gallery-grid__image-wrap">
-									<img class="gallery-grid__image cover lazyload" src="assets/img/image_07.jpg" data-zoom alt="" />
+									<img class="gallery-grid__image cover lazyload" src="assets/img/photo1.png" data-zoom alt="" />
 								</div>
 								<figcaption class="gallery-grid__caption">
-									<h4 class="title title--h6 gallery-grid__title">Peach</h4>
-									<span class="gallery-grid__category">Concept</span>
+									<h4 class="title title--h6 gallery-grid__title">Cyberpunk（赛博朋克）</h4>
+									<span class="gallery-grid__category">城市艺术摄影</span>
 								</figcaption>
 							</figure>
 
-							<!-- Item 8 -->
-							<figure class="gallery-grid__item category-design">
+							<!-- Photo 2 -->
+							<figure class="gallery-grid__item category-photo">
 								<div class="gallery-grid__image-wrap">
-									<img class="gallery-grid__image cover lazyload" src="assets/img/image_08.jpg" data-zoom alt="" />
+									<img class="gallery-grid__image cover lazyload" src="assets/img/photo2.png" data-zoom alt="" />
 								</div>
 								<figcaption class="gallery-grid__caption">
-									<h4 class="title title--h6 gallery-grid__title">Abstract #4</h4>
-									<span class="gallery-grid__category">Design</span>
+									<h4 class="title title--h6 gallery-grid__title">Literary and artistic revival(文艺复古风格)</h4>
+									<span class="gallery-grid__category">人像摄影</span>
 								</figcaption>
 							</figure>
 
-							<!-- Item 9 -->
-							<figure class="gallery-grid__item category-life">
+							<!-- Photo 3 -->
+							<figure class="gallery-grid__item category-photo">
 								<div class="gallery-grid__image-wrap">
-									<img class="gallery-grid__image cover lazyload" src="assets/img/image_09.jpg" data-zoom alt="" />
+									<img class="gallery-grid__image cover lazyload" src="assets/img/photo3.png" data-zoom alt="" />
 								</div>
 								<figcaption class="gallery-grid__caption">
-									<h4 class="title title--h6 gallery-grid__title">Hedgehog</h4>
-									<span class="gallery-grid__category">Life</span>
+									<h4 class="title title--h6 gallery-grid__title">Dinner(食品宣传图)</h4>
+									<span class="gallery-grid__category">产品摄影</span>
 								</figcaption>
 							</figure>
-						</div><!-- Gallery End -->
+
+							<!--查看更多 -->
+							<figure class="gallery-grid__item category-photo">
+								<div class="gallery-grid__image-wrap">
+									<a href="https://img.waite.wang/album/my-work.y5t">
+										<img class="gallery-grid__image cover lazyload" src="assets/img/more.png" alt="" />
+									</a>
+								</div>
+								<figcaption class="gallery-grid__caption">
+									<h4 class="title title--h6 gallery-grid__title">查看更多</h4>
+								</figcaption>
+							</figure>
+						<!-- Gallery End -->
 					</div>
 
 					<!-- Footer -->
-					<footer class="footer">© 2019 vCard</footer>
+					<footer class="footer">
+						Copyright © 2023
+						<a href="https://me.waite.wang"> Waite.RS </a>
+						. All rights reserved.
+					</footer>
 		        </div>
 			</div>
 		</div>
+	</div>
     </main>
 
     <div class="back-to-top"></div>
