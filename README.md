@@ -18,3 +18,5 @@
 2. [模板二](https://github.com/waite0603/Resume/tree/template_vCard_2)
 
 ![image](https://user-images.githubusercontent.com/75354124/218303968-e54660ee-cceb-4492-8920-e99dfcbf007f.png)
+
+> [查看其他模板](https://github.com/waite0603/Responsive-Personal-Portfolio-Website)
