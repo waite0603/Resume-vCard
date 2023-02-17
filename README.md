@@ -1,4 +1,15 @@
-# vCard3
+# vCard
+
+## 主要特点：
+* 干净的设计
+* 亮色与暗色两个风格，可随时切换
+* 详细的用户界面
+* 易于使用, 可定制
+* 包含博客界面
+* Bootstrap4
+* 现代编码
+* W3C HTML有效代码
+
 
 1. [模板一](https://github.com/waite0603/Resume/tree/template_vCard_1)
 
